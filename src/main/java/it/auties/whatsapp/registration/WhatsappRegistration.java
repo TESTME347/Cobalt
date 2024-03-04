@@ -103,7 +103,7 @@ public final class WhatsappRegistration {
                 .put("rc", store.releaseChannel().index())
                 .put("ab_hash", abHash, abHash != null)
                 .toMap();
-        System.out.println(Whatsapp.MOBILE_REGISTRATION_ENDPOINT + "/reg_onboard_abprop?" + toFormParams(attributes));
+        //System.out.println(Whatsapp.MOBILE_REGISTRATION_ENDPOINT + "/reg_onboard_abprop?" + toFormParams(attributes));
         var request = HttpRequest.newBuilder()
                 .uri(URI.create(Whatsapp.MOBILE_REGISTRATION_ENDPOINT + "/reg_onboard_abprop?" + toFormParams(attributes)))
                 .GET()
@@ -116,7 +116,7 @@ public final class WhatsappRegistration {
                         throw new RegistrationException(null, response.body());
                     }
 
-                    System.out.println(response.body());
+                    //System.out.println(response.body());
                     return Json.readValue(response.body(), AbPropsResponse.class);
                 });
     }
