@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.github.auties00</groupId>
+    <groupId>com.github.TESTME347</groupId>
     <artifactId>cobalt</artifactId>
     <version>0.0.3</version> <!-- Release 0.0.3 -->
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Standalone fully-featured Whatsapp Web API for Java and Kotlin</description>
-    <url>https://github.com/Auties00/Cobalt</url>
+    <url>https://github.com/TESTME347/Cobalt</url>
     <developers>
         <developer>
             <name>Alessandro Autiero</name>
@@ -21,9 +21,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/Auties00/Cobalt/tree/master</url>
-        <connection>scm:git:https://github.com/Auties00/Cobalt.git</connection>
-        <developerConnection>scm:ssh:https://github.com/Auties00/Cobalt.git</developerConnection>
+        <url>https://github.com/TESTME347/Cobalt/tree/master</url>
+        <connection>scm:git:https://github.com/TESTME347/Cobalt.git</connection>
+        <developerConnection>scm:ssh:https://github.com/TESTME347/Cobalt.git</developerConnection>
     </scm>
 
     <distributionManagement>
@@ -205,7 +205,7 @@
                     <release>${java.version}</release>
                     <annotationProcessorPaths>
                         <annotationProcessorPath>
-                            <groupId>com.github.auties00</groupId>
+                            <groupId>com.github.TESTME347</groupId>
                             <artifactId>protobuf-serialization-plugin</artifactId>
                             <version>${protoc.version}</version>
                         </annotationProcessorPath>
@@ -246,7 +246,7 @@
             <version>${zxing.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.auties00</groupId>
+            <groupId>com.github.TESTME347</groupId>
             <artifactId>qr-terminal</artifactId>
             <version>${qr.terminal.version}</version>
         </dependency>
@@ -263,14 +263,14 @@
             <version>${bouncy.castle.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.auties00</groupId>
+            <groupId>com.github.TESTME347</groupId>
             <artifactId>curve25519</artifactId>
             <version>${curve25519.version}</version>
         </dependency>
 
         <!-- Protobuf serialization (used by Whatsapp) -->
         <dependency>
-            <groupId>com.github.auties00</groupId>
+            <groupId>com.github.TESTME347</groupId>
             <artifactId>protobuf-base</artifactId>
             <version>${protoc.version}</version>
         </dependency>
@@ -328,7 +328,7 @@
 
         <!-- Generate message previews -->
         <dependency>
-            <groupId>com.github.auties00</groupId>
+            <groupId>com.github.TESTME347</groupId>
             <artifactId>link-preview</artifactId>
             <version>${linkpreview.version}</version>
             <optional>true</optional>
